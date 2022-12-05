@@ -2,20 +2,29 @@
 webpack项目配置模板 持续完善...
 
 //初始化项目
+```
 npm init 
+```
 //安装webpack
+```
 npm install webpack -D
 npm install webpack-cli -D
+```
 or
 //全局安装
-npm i webpack -D -g
-
+```
+npm i webpack webpack-cli -D -g
+```
 
 //安装dotenv,用于读取.env文件中的key/value
+```
 npm i dotenv -D
+```
 
 //安装cross-env,用于添加自定义变量到process.env对象中
+```
 npm i cross-env -D
+```
 
 //html-webpack-plugin 生成.html文件
 
